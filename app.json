@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "P1Meter-appie",
-    "slug": "P1Meter-appie",
+    "name": "P1Meter-app",
+    "slug": "P1Meter-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
