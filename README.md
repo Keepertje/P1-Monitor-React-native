@@ -4,10 +4,14 @@ This is a hobby project of mine to get some practice with React Native and P1 da
 
 This is a React-Native app based on Expo to read the current power usage from the Homewizard P1 meter.
 
+It does nothing extra to the Homewizard Energy app, just for fun :)
+
 ## How to Connect to Homewizard P1 Meter
 https://homewizard-energy-api.readthedocs.io/getting-started.html
 
 Make sure the api is enabled in the Energy app. 
+
+Use the url: http://{YOUR_API_ADDRESS}/api/v1/data. in the env.js to let the app connect to your Homewizard meter.
 
 Find the ip adress of your Homewizard P1 meter to access it's api using Discovery.
 
@@ -42,8 +46,3 @@ DATE: ---Sun 19 Dec 2021---
 Timestamp     A/R    Flags if Hostname                               Address                                      TTL
 19:25:23.284  Add 40000002 12 p1meter-XXXXXX.local.                  xxx.xxx.x.xx                                 120
 ```
-
-Use the url: http://{YOUR_API_ADDRESS}/api/v1/data. in the env.js
-
-
-
